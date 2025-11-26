@@ -1,4 +1,4 @@
-package com.demowebshop.khomenko;
+package com.demowebshop.models;
 
 public class User {
     private String firstName;
