@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Regression" verbose="1">
+    <test name="Positive">
+        <classes>
+            <class name="com.demowebshop.khomenko.tests.HomePageTests"/>
+            <class name="com.demowebshop.khomenko.tests.ItemTests">
+            </class>
+        </classes>
+    </test>
+</suite>
