@@ -24,7 +24,8 @@ test {
     }
 }
 
-task Page(type:Test){
+task page(type:Test){
+
     useTestNG()
             {
                 suites('src/test/resources/testng.xml')
